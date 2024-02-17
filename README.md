@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Symphoni Social frontend coding interview challenge 1 - Multi-step form solution
 
-## Getting Started
+This is a solution to the Multi-step form challenge of Symphoni Social.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### The challenge
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Users should be able to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Complete each step of the sequence
+- Go back to a previous step to update their selections
+- See a summary of their selections on the final step and confirm their order
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- Receive form validation messages if:
+  - A field has been missed
+  - The email address is not formatted correctly
+  - A step is submitted, but no selection has been made
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Screenshot
 
-## Learn More
+![Solution Screenshot](./screenshot.jpg)
 
-To learn more about Next.js, take a look at the following resources:
+### Links
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- GitHub Solution URL: [Add solution URL here](https://github.com/dev-scott/symphoni_frontend_prod_1)
+- Live Site URL: [Add live site URL here](https://symphoni-frontend-prod-1.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## My process
 
-## Deploy on Vercel
+### Built with
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- React - JS library
+- Next.js - React framework
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### What I learned
+
+I learned how to effectively structure a multi-step form and manage state in React using the Zustand library.
+
+### Continued development
+
+I plan to continue refining my skills in React and exploring more advanced state management techniques.
+
+### Useful resources
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web) - A comprehensive resource for web development information.
+- [React documentation](https://reactjs.org/docs/getting-started.html) - Official documentation for React.
+- [Zustand GitHub repository](https://github.com/pmndrs/zustand) - Documentation and examples for Zustand state management library.
+
+## Author
+
+- [Your Name](https://github.com/dev-scott)
+
