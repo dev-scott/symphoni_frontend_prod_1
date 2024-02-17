@@ -19,7 +19,7 @@ export const usePersonalInfoStore = create<PersonalInfoStore>((set) => ({
     set((state) => ({
       data: {
         ...state.data,
-        ...data, // Merge les nouvelles données avec l'ancienne
+        ...data,
       },
     }));
   },
