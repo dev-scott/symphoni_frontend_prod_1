@@ -24,7 +24,7 @@ const SelectPlan: FC<Props> = ({ active, setActive }) => {
 
   const onSubmit: SubmitHandler<SelectPlanType> = (data) => {
     console.log(data);
-    // setActive(active + 1);
+    setActive(active + 1);
   };
 
   const prevButton = () => {

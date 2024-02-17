@@ -6,6 +6,7 @@ import PersonalInformation from "./PersonalInformation";
 import SelectPlan from "./SelectPlan";
 import SelectAddons from "./SelectAddons";
 import SummaryInformation from "./SummaryInformation";
+import FinishStep from "./FinishStep";
 
 type Props = {};
 
@@ -26,6 +27,7 @@ const CreateSubscription = (props: Props) => {
         {active === 3 && (
           <SummaryInformation active={active} setActive={setActive} />
         )}
+        {active === 4 && <FinishStep active={active} setActive={setActive} />}
       </div>
     </div>
   );
