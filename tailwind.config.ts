@@ -34,6 +34,7 @@ const config: Config = {
         "400px": "400px",
         "600px": "600px",
         "1290px": "1290px",
+        
       },
     },
   },

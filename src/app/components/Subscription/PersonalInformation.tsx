@@ -1,5 +1,6 @@
 import { PersonalInfoSchema, PersonalInfoType } from "@/app/lib/validation";
 import { styles } from "@/app/styles/style";
+import { usePersonalInfoStore } from "@/store";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FC } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
@@ -10,6 +11,10 @@ type Props = {
 };
 
 const PersonalInformation: FC<Props> = ({ active, setActive }) => {
+
+
+  // const personaStore = usePersonalInfoStore((state)=)
+
   const {
     handleSubmit,
     register,

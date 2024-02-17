@@ -46,8 +46,8 @@ const SelectPlan: FC<Props> = ({ active, setActive }) => {
             You have the option of monthly or yearly billing
           </span>
         </div>
-        <div className="mt-15">
-          <div className="mt-[30px] flex items-center justify-between">
+        <div className="mt-15 ">
+          <div className="mt-[30px] flex items-center  1500px:flex-row flex-col gap-y-3 justify-between">
             <div className="p-[20px] cursor-pointer border-2 border-[#e3ddf4] rounded-xl ">
               <label
                 className="checkbox-label   w-[140px] h-[130px]   flex flex-col justify-between items-start"

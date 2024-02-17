@@ -14,11 +14,11 @@ const CreateSubscription = (props: Props) => {
   const [active, setActive] = useState(0);
 
   return (
-    <div className=" flex justify-between w-[70%] min-h-[80vh] rounded-lg bg-white p-10 ">
-      <div className="w-[30%]   rounded-lg bg-hero_bg bg-no-repeat bg-contain bg-center">
+    <div className=" flex justify-between w-[70%] min-h-[80vh] flex-col 1500px:flex-row rounded-lg 1500px:bg-white p-10 z-10">
+      <div className="1500px:w-[30%] w-[100%] h-[400px] 1500px:h-auto top-0  absolute left-0 right-0   1500px:relative 1500px:rounded-lg bg-blue-700 1500px:bg-hero_bg bg-no-repeat bg-cover bg-center">
         <SubscriptionSteps active={active} setActive={setActive} />
       </div>
-      <div className="w-[60%] ">
+      <div className="1500px:w-[60%] w-full relative bg-white p-10 rounded-lg ">
         {active === 0 && (
           <PersonalInformation active={active} setActive={setActive} />
         )}
