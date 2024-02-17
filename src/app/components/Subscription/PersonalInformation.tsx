@@ -11,9 +11,11 @@ type Props = {
 };
 
 const PersonalInformation: FC<Props> = ({ active, setActive }) => {
-
-
   // const personaStore = usePersonalInfoStore((state)=)
+
+  const updatePersonalInfo = usePersonalInfoStore(
+    (state) => state.updatePersonalInfo
+  );
 
   const {
     handleSubmit,
@@ -30,6 +32,7 @@ const PersonalInformation: FC<Props> = ({ active, setActive }) => {
 
   const onSubmit: SubmitHandler<PersonalInfoType> = (data) => {
     console.log(data);
+    updatePersonalInfo(data);
     setActive(active + 1);
   };
 

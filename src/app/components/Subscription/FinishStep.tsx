@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FC } from "react";
 import thankIcon from "@/assets/icon-thank-you.svg";
+import { usePersonalInfoStore } from "@/store";
 
 type Props = {
   active: number;
@@ -8,6 +9,9 @@ type Props = {
 };
 
 const FinishStep: FC<Props> = ({ active, setActive }) => {
+  const data = usePersonalInfoStore((state) => state.data);
+  console.log(data);
+
   return (
     <div className="w-[80%] m-auto mt-20 flex justify-center flex-col h-[80%] gap-5 items-center ">
       <Image src={thankIcon} alt="img" width={90} height={90} />
